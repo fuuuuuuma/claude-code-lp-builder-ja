@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# deps / build
+node_modules/
+dist/
+build/
+*.log
+
+# secrets — 絶対にコミットしない
+.env
+.env.*
+*credentials*
+*secret*
+
+# ループの作業状態（利用者の手元のみ）
+.loop/
+
+# 生成されたLP成果物（利用者の手元に残す。配布キットには含めない）
+output/
+generated-lp/
+lp-spec.md
+preview-*.png
